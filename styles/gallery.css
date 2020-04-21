@@ -1,0 +1,151 @@
+.background
+{
+    background-image: url(../images/background/gallery.jpg);
+    background-color: black;
+    background-position: absolute;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.header {
+	margin-top: 10%;
+	font-size: 4rem;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.aboutheader {
+	background-color: rgb(102, 255, 255, 0.9);
+	width: fit-content;
+	margin-left: 1rem;
+	padding: 0.2rem;
+	font-size: 30px;
+}
+
+/*  GALLERY */ /*  GALLERY *//*  GALLERY *//*  GALLERY *//*  GALLERY *//*  GALLERY *//*  GALLERY *//*  GALLERY */
+gallery
+{
+    margin: 0px 50px;
+    padding-left: 15px !important;
+}
+
+.img_gallery {
+    width: 480px;
+}
+
+.gallery img
+{
+    transition: 1s;
+    padding: 15px;
+    margin-left: 4.5%;
+    height: auto;
+    transform: scale (0.5);
+}
+
+/* LAST PICTURE CENTERED */ /* LAST PICTURE CENTERED */
+.pic31 {
+    margin-left: 31.9%;
+}
+/* LAST PICTURE CENTERED */ /* LAST PICTURE CENTERED */
+
+.gallery img:hover
+{
+    filter: greyscale(75);
+    transform: scale(1.1);
+}
+
+galleryfontsize
+{
+    font-size: 15px;
+}
+/*  GALLERY *//*  GALLERY *//*  GALLERY *//*  GALLERY *//*  GALLERY *//*  GALLERY *//*  GALLERY *//*  GALLERY *//*  GALLERY */
+
+
+.backtotop
+{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 5%;
+    width: 100%;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgb(102, 255, 255);
+    border-radius: 10px;
+}
+
+.backtotop:hover
+{
+    background-color: rgb(102, 255, 255);
+    box-shadow: 1px 1px 15px rgb(102, 255, 255);
+}
+
+.footer {
+	position: relative;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	margin-left: 1%;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 575px) {
+    .gallery img {
+        margin-left: 0%;
+        max-width: 100%;
+    }
+    
+    .pic31 {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    .gallery img {
+        margin-left: 2.6%;
+        max-width: 100%;
+    }
+
+    .pic31 {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 919px) {
+    .gallery img {
+        margin-left: 15%;
+        max-width: 100%;
+    }
+
+    .pic31 {
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .gallery img {
+        margin-left: 25%;
+        max-width: 100%;
+    }
+
+    .pic31 {
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .gallery img {
+        margin-left: 5%;
+        max-width: 80%;
+    }
+
+    .pic31 {
+        margin-left: 25%;
+    }
+}

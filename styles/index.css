@@ -1,0 +1,26 @@
+.background
+{
+    background-image: url(../images/background/homepage.jpg);
+    background-color: black;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: auto;
+	color: white;
+}
+
+.welcome{
+    margin-top: 3rem;
+}
+
+
+.welcome-text
+{
+    font-size: 5rem;
+}
+
+.footer
+{
+	position: relative;
+    width: auto;
+	font-size: 20px;
+}

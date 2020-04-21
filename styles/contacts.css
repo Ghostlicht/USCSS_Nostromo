@@ -1,0 +1,175 @@
+.background
+{
+    background-image: url(../images/background/contacts.jpg);
+    background-color: black;
+    background-position: absolute;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+
+/* LOGO SIZE */ /* LOGO SIZE */
+
+/* LOGO SIZE */ /* LOGO SIZE */
+.imageplacement
+{
+    position: relative;
+    box-shadow: 0px 0px 5px rgb(102, 255, 255, 0.9);
+    color: black;
+    width: 928px;
+    height: 483px;
+    transform: scale(0.8);
+    margin-top: 2%;
+    margin-left: 5%;
+    z-index: 1;
+}
+
+.aboutbody
+{
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 20px;
+    height: 100%;
+    width: 40%;
+    margin-top: 3.5%;
+    margin-left: 5%;
+    font-size: 30px;
+    text-align: justify;
+    box-shadow: 0px 0px 2px rgb(102, 255, 255);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+/* APPLY NOW *//* APPLY NOW *//* APPLY NOW *//* APPLY NOW *//* APPLY NOW *//* APPLY NOW */
+.applynow
+{
+    background-color: rgb(70, 207, 207);
+    position: relative;
+    float:right;
+    height: auto;
+    width: 50%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-size: 60px;
+    text-align: center;
+}
+
+                        .applynow:hover
+                        {
+                            background-color: rgb(102, 255, 255);
+                            box-shadow: 1px 1px 15px rgb(102, 255, 255);
+                        }
+
+/* APPLY NOW *//* APPLY NOW *//* APPLY NOW *//* APPLY NOW *//* APPLY NOW */
+
+.font {
+    font-size: 2rem;
+}
+
+
+/* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ 
+.website:hover {
+    color: rgb(102, 255, 255);
+}
+
+.instagram:hover {
+    color: rgb(255, 102, 204);
+}
+
+
+/* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ 
+
+.footer
+{
+    position: relative;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-left: 1.4%;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 575px) {
+    .logo {
+		margin: auto;
+	}
+
+    .imageplacement {
+        height: auto;
+        width: 100%;
+        margin-left: 0%;
+        
+    }
+                                                                                  
+    .aboutbody {
+        width: 90%;
+        margin-left: 5%;
+        padding:5px;
+        font-size: 0.7em;
+    }
+
+    .applynow {
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .footer {
+        right: -16px;
+    }
+
+    .font {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 530px) {
+    .aboutbody {
+        width: 90%;
+        margin-left: 5%;
+        padding:5px;
+        font-size: 0.7em;
+    }
+
+    .imageplacement {
+        height: auto;
+        width: 100%;
+        margin-left: 0%;
+
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .aboutbody {
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 3%;
+        padding:5px;
+        font-size: 0.7em;
+    }
+
+    .imageplacement {
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .aboutbody {
+        height: none;
+        width: 40%;
+        padding: 5px;
+        display: inline-block;
+        margin-left: 7%;
+        font-size: 0.7em;
+    }
+
+    .imageplacement {
+        height: auto;
+        width: 40%;
+        margin-bottom: 5%;
+    }
+}

@@ -1,0 +1,236 @@
+.background
+{
+    background-image: url(../images/background/crew.jpg);
+    background-color: black;
+    background-position: absolute;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+/* DISPLAY IMAGES */ /* DISPLAY IMAGES */ /* DISPLAY IMAGES */ /* DISPLAY IMAGES */ 
+
+.container
+{
+    max-width: 80%;
+    max-height: auto;
+    margin: auto;
+    padding: 0 2rem;
+    
+}
+
+                            .card{
+                                width: 100%;
+                                font-size: 1.3rem;
+                                text-align: justify;
+                                background: rgb(0, 0, 0, 0.2);
+                                box-shadow: 0px 0px 15px rgb(102, 255, 255);
+                            }
+
+
+                                                .card > div {
+                                                    padding: 2rem;
+                                                }
+
+                                                .card:nth-child(even) img    /* alterar a cada 2 imagens class card  */
+                                                {
+                                                    order:2;
+                                                }
+
+                                                @media screen and (max-width: 575px) {
+                                                    body {
+                                                        overflow-x: hidden;
+                                                    }
+                                                                                                                                   
+                                                }
+
+                                                .marginright {      /* encostar card à direita */
+                                                    float: right;
+                                                    margin-right: 10%;
+                                                }
+
+                                                .marginleft {               /* encostar card à esquerda */
+                                                    margin-left: 10%;
+                                                }
+
+                                                .marginrightcat {           /* override ultima carta à direita */
+                                                    margin-left: 30%;
+                                                }
+
+/* DISPLAY IMAGES */ /* DISPLAY IMAGES */ /* DISPLAY IMAGES */ /* DISPLAY IMAGES */ 
+
+
+.backtotop:hover
+{
+    background-color: rgb(102, 255, 255);
+    box-shadow: 1px 1px 15px rgb(102, 255, 255);
+}
+/* BACK TO TOP */ /* BACK TO TOP */ 
+
+.footer {
+	position: relative;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	margin-left: 1%;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+    
+    .marginleft img {
+        margin-left: 6%;
+    }
+
+    .marginleft {
+        margin-left: 0%;
+        max-width: 100% !important;
+    }
+
+    .marginright img {
+        margin-left: 6%;
+    }
+
+    .marginright {
+        margin-right: 0%;
+        max-width: 100% !important;
+    }
+
+    .marginrightcat img {
+        margin-left: 6%;
+    }
+
+    .marginrightcat {
+        margin-left: 0%;
+        max-width: 100% !important;
+    }
+    
+
+}
+
+@media only screen and (max-width: 754px) {
+   
+    .marginleft img {
+        margin-left: 6%;
+    }
+
+    .marginleft {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+
+    .marginright img {
+        margin-left: 6%;
+    }
+
+    .marginright {
+        margin-right: 10%;
+        max-width: 80% !important;
+    }
+
+    .marginrightcat img {
+        margin-left: 6%;
+    }
+
+    .marginrightcat {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 919px) {
+
+    .marginleft img {
+        width: 100%;
+        padding-top: 20%;
+    }
+
+    .marginleft {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+
+    .marginright img {
+        width: 100%;
+        padding-top: 20%;
+    }
+
+    .marginright {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+
+    .marginrightcat img {
+        padding-top: 20%;
+        max-width: 100%;
+        margin-left: 6%;
+    }
+
+    .marginrightcat {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .marginleft img {
+        width: 100%;
+        padding-top: 18%;
+    }
+
+    .marginleft {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+    .marginright img {
+        width: 100%;
+        padding-top: 18%;
+    }
+
+    .marginright {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+
+    .marginrightcat img {
+        padding-top: 18%;
+        max-width: 100%;
+        margin-left: 6%;
+    }
+
+    .marginrightcat {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .marginleft img {
+        width: 100%;
+        padding-top: 0%;
+    }
+
+    .marginleft {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+    .marginright img {
+        width: 100%;
+        padding-top: 0%;
+    }
+
+    .marginright {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+
+    .marginrightcat img {
+        padding-top: 0%;
+        max-width: 100%;
+        margin-left: 6%;
+    }
+
+    .marginrightcat {
+        margin-left: 10%;
+        max-width: 80% !important;
+    }
+}

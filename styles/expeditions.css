@@ -1,0 +1,120 @@
+.background
+{
+    background-image: url(../images/background/exploration_1.jpg);
+    background-color: black;
+    background-position: absolute;
+    background-repeat: no-repeat;
+	color: white;
+}
+
+body{
+    font-family: Agency FB;
+    min-height: 100vh;
+    height: center;
+}
+
+.youtube
+{
+    position: relative;
+    padding: 10%;
+    justify-content: center;
+}
+
+.bgimg-0, .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+    position: relative;
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .bgimg-0 {
+    background-image: url("../images/expeditions/exploration.jpg");
+    min-height: 100%;
+  }
+
+  .bgimg-1 {
+    background-image: url("../images/expeditions/exploration_1.jpg");
+    min-height: 70vh;
+  }
+  
+  .bgimg-2 {
+    background-image: url("../images/expeditions/exploration_2.jpg");
+    min-height: 70vh;
+  }
+  
+  .bgimg-3 {
+    background-image: url("../images/expeditions/exploration_3.jpg");
+    min-height: 70vh;
+  }
+
+  .bgimg-4 {
+    background-image: url("../images/expeditions/exploration_4.jpg");
+    min-height: 70vh;
+  }
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(102, 255, 255, 0.9);
+}
+
+
+.caption span.border {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 18px;
+    font-size: 45px;
+    letter-spacing: 10px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+/* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ 
+.backtotop
+{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 5%;
+    width: 100%;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgb(102, 255, 255);
+    border-radius: 10px;
+}
+
+.backtotop:hover
+{
+    background-color: rgb(102, 255, 255);
+    box-shadow: 1px 1px 15px rgb(102, 255, 255);
+}
+/* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ /* BACK TO TOP */ 
+
+.footer {
+	position: relative;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	margin-left: 1%;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .footer {
+        right: -16px;
+    }
+}

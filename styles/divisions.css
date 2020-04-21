@@ -1,0 +1,236 @@
+.background {
+	background-image: url(../images/background/divisions.jpg);
+	background-color: black;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+/* 2ND LOGO SIZE */
+.logo2 {
+	width: 40%;
+	padding: 1%;
+	margin: auto;
+	margin-top: 4%;
+	margin-left: 30%;
+}
+
+/* 2ND LOGO SIZE */
+
+
+/* TEXT CONTENT */
+.storybody {
+	position: relative;
+	background-color: rgb(0, 0, 0, 0.6);
+	border-radius: 20px;
+	width: 80%;
+	hyphens: none;
+	padding: 15px;
+	margin-left: 10%;
+	font-size: 2rem;
+	text-align: center;
+	box-shadow: 0px 0px 2px rgb(102, 255, 255);
+	border-radius: 10px;
+}
+/* TEXT CONTENT */
+
+/* SMALLER TEXT CONTENT*/
+.storybodysmall {
+	position: relative;
+	background-color: rgb(0, 0, 0, 0.6);
+	border-radius: 20px;
+	width: 60%;
+	hyphens: none;
+	padding: 15px;
+	margin-left: 20%;
+	font-size: 2rem;
+	text-align: center;
+	box-shadow: 0px 0px 2px rgb(223, 195, 36);
+	border-radius: 10px;
+}
+/* SMALLER TEXT CONTENT*/
+
+/* INTERAL LINKS */ /* INTERAL LINKS */
+.internalinks {
+    position: relative;
+    width: 20%;
+    padding: 0px 100px 0px 100px;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 14%;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgb(102, 255, 255);
+    border-radius: 10px;
+}
+
+                        .internalinks:hover
+                        {
+                            background-color: rgb(102, 255, 255);
+                            box-shadow: 1px 1px 15px rgb(102, 255, 255);
+						}
+
+/* INTERAL LINKS */ /* INTERAL LINKS */
+
+
+/* GUN IMAGES */ /* GUN IMAGES */
+.guns {
+	position: relative;
+	width: 50%;
+	box-shadow: 0px 0px 10px rgb(223, 195, 36);
+	padding: 0%;
+}
+/* GUN IMAGES */ /* GUN IMAGES */ 
+
+/* TEXT BELOW IMAGE */ /* TEXT BELOW IMAGE */ 
+.subtitles {
+	position: relative;
+	width: 80%;
+	font-size: 2rem;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	padding: 0%;
+}
+/* TEXT BELOW IMAGE */ /* TEXT BELOW IMAGE */ 
+
+
+
+/* BACK TO TOP */
+.backtotop {
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	display: block;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 5%;
+	width: 100%;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px rgb(102, 255, 255);
+	border-radius: 10px;
+}
+
+.backtotop:hover {
+	background-color: rgb(102, 255, 255);
+	box-shadow: 1px 1px 15px rgb(102, 255, 255);
+}
+/* BACK TO TOP */
+
+.footer {
+	position: relative;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	margin-left: 1%;
+	font-size: 20px;
+}
+
+
+@media screen and (max-width: 575px) {
+	body {
+		overflow-x: hidden;
+	}
+	
+	.logo {
+		width: 60%;
+		height: 60%;
+		margin: none;
+	}
+
+	.logo2 {
+		width: 100%;
+		margin-left: auto;
+		margin-top: 4%;
+	}
+
+	.guns {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 2%;
+	}
+
+	.gun-separator
+	{
+		margin: 2rem;
+	}
+
+	.subtitle {
+		margin-top: 2%;
+		margin-bottom: 5%;
+		font-size: 2vh;
+	}
+
+	h1,
+	h2 {
+		text-align: center;
+	}
+
+	.storybody {
+		text-align: center;
+	}
+
+	.storybodysmall {
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+
+	.internalinks {
+		padding: none;
+		width: auto;
+		margin: auto;
+	}
+
+	.footer {
+		margin: auto;
+		margin-top: 5%;
+	}
+}
+
+
+@media only screen and (max-width: 919px) {
+	.logo2 {
+		width: 80%;
+		margin-left: 10%;
+    }
+	
+    .internalinks {
+		padding: none;
+		width: auto;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 870px) {
+    .internalinks {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 757px) {
+	.logo2 {
+		width: 80%;
+		margin-left: 10%;
+    }
+    
+    .logo3 {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.internalinks {
+		padding: none;
+		width: auto;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.logo2 {
+		width: 80%;
+	}
+
+}

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="../styles/bootstrap.min.css">
+	<link href="../styles/bootstrap.min.css" rel="stylesheet">
+	<link href="css/datetimepicker.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.0.js"
+		integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+	<script src="../styles/js/form.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="../styles/menu.css">
+	<link rel="stylesheet" href="../styles/form.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>NOSTROMO | Recruitment Form</title>
+</head>
+
+<body class="background">
+	<div class="container-fluid">
+		<a name="top"></a>
+		<div class="text-center">
+			<img class="logo" src="../images/nostromologo.png" alt="logo"></img>
+		</div>
+
+		<div class="row menu">
+			<div class="col-sm-6 col-md-4 col-lg-2">
+				<a href="about.html" target="_self">
+					<div class="splash menu-item-1">
+						ABOUT
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2">
+				<a href="crew.html" target="_self">
+					<div class="splash menu-item-2">
+						THE CREW
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2">
+				<div class="dropdown-top">
+					<div class="splash menu-item-3">
+						W.Y.CORP
+					</div>
+					<div class="dropdown-content">
+						<a href="wycorp_history.html" target="_self">
+							<div class="splash dropdown-item">
+								HISTORY
+							</div>
+						</a>
+						<a href="divisions.html" target="_self">
+							<div class="splash dropdown-item">
+								DIVISIONS
+							</div>
+						</a>
+						<a href="activities.html" target="_self">
+							<div class="splash dropdown-item dropdown-item-bottom-1">
+								ACTIVITIES
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2">
+				<a href="gallery.html" target="_self">
+					<div class="splash menu-item-4">
+						GALLERY
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2">
+				<a href="expeditions.html" target="_self">
+					<div class="splash menu-item-5">
+						EXPEDITIONS
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2">
+				<div class="dropdown-top">
+					<div class="splash menu-item-6">
+						CONTACTS
+					</div>
+					<div class="dropdown-content">
+						<a href="contacts.html" target="_self">
+							<div class="splash dropdown-item">
+								INFO
+							</div>
+						</a>
+						<a href="form.html" target="_self">
+							<div class="splash dropdown-item dropdown-item-bottom-2">
+								RECRUITMENT
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header text-center splash">
+			RECRUITMENT FORM
+		</div>
+		<form>
+			<div class="form-row">
+				<h3 class="col-12 aboutheader" data-aos="fade-right">SEND US YOUR APPLICATION</h3>
+				<div class="col-lg-6">
+					<h3 class="group-name">PERSONAL INFO</h3>
+					<div class="form-group">
+						<label for="name">NAME:</label>
+						<input type="text" name="name" class="form-control" id="name"
+							placeholder="Insert your name here..." required>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="bday">BIRTHDAY:</label>
+							<input type="date" id="bday" name="bday" class="form-control">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="gender" class="radioHeader">GENDER*:</label>
+							<label class="radio-inline"><input type="radio" name="gender" value="male">MALE</label>
+							<label class="radio-inline"><input type="radio" name="gender" value="female">FEMALE</label>
+							<label class="radio-inline"><input type="radio" name="gender"
+									value="android">ANDROID</label>
+						</div>
+					</div>
+					<h3 class="group-name">ID CARD INFORMATION</h3>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="idNumber">ID NUMBER:</label>
+							<input type="number" name="idNumber" class="form-control" id="idNumber"
+								placeholder="Insert your ID Number here...">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="insurance">INSURANCE:</label>
+							<input type="text" name="insurance" class="form-control" id="insurance"
+								placeholder="Insert your insurance details here...">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="birthplace">BIRTHPLACE:</label>
+							<input type="text" name="birthplace" class="form-control" id="birthplace"
+								placeholder="Insert your birthplace here...">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="maritalStatus">MARITAL STATUS:</label>
+							<select id="maritalStatus" name="maritalStatus" class="form-control">
+								<option value="" selected disabled hidden>-- select one --</option>
+								<option value="single">Single</option>
+								<option value="married">Married</option>
+								<option value="nmPartnership">Non-marital Partnership</option>
+								<option value="divorced">Divorced</option>
+								<option value="widowed">Widowed</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="height">HEIGHT:</label>
+							<input type="number" name="height" class="form-control" id="height"
+								placeholder="Insert your height in cm here..." min="165" max="210">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="nationality">NATIONALITY:</label>
+							<select id="nationality" name="nationality" class="form-control">
+								<option value="" selected disabled hidden>-- select one --</option>
+								<option value="AF">Afghanistan</option>
+								<option value="AX">Åland Islands</option>
+								<option value="AL">Albania</option>
+								<option value="DZ">Algeria</option>
+								<option value="AS">American Samoa</option>
+								<option value="AD">Andorra</option>
+								<option value="AO">Angola</option>
+								<option value="AI">Anguilla</option>
+								<option value="AQ">Antarctica</option>
+								<option value="AG">Antigua and Barbuda</option>
+								<option value="AR">Argentina</option>
+								<option value="AM">Armenia</option>
+								<option value="AW">Aruba</option>
+								<option value="AU">Australia</option>
+								<option value="AT">Austria</option>
+								<option value="AZ">Azerbaijan</option>
+								<option value="BS">Bahamas</option>
+								<option value="BH">Bahrain</option>
+								<option value="BD">Bangladesh</option>
+								<option value="BB">Barbados</option>
+								<option value="BY">Belarus</option>
+								<option value="BE">Belgium</option>
+								<option value="BZ">Belize</option>
+								<option value="BJ">Benin</option>
+								<option value="BM">Bermuda</option>
+								<option value="BT">Bhutan</option>
+								<option value="BO">Bolivia, Plurinational State of</option>
+								<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+								<option value="BA">Bosnia and Herzegovina</option>
+								<option value="BW">Botswana</option>
+								<option value="BV">Bouvet Island</option>
+								<option value="BR">Brazil</option>
+								<option value="IO">British Indian Ocean Territory</option>
+								<option value="BN">Brunei Darussalam</option>
+								<option value="BG">Bulgaria</option>
+								<option value="BF">Burkina Faso</option>
+								<option value="BI">Burundi</option>
+								<option value="KH">Cambodia</option>
+								<option value="CM">Cameroon</option>
+								<option value="CA">Canada</option>
+								<option value="CV">Cape Verde</option>
+								<option value="KY">Cayman Islands</option>
+								<option value="CF">Central African Republic</option>
+								<option value="TD">Chad</option>
+								<option value="CL">Chile</option>
+								<option value="CN">China</option>
+								<option value="CX">Christmas Island</option>
+								<option value="CC">Cocos (Keeling) Islands</option>
+								<option value="CO">Colombia</option>
+								<option value="KM">Comoros</option>
+								<option value="CG">Congo</option>
+								<option value="CD">Congo, the Democratic Republic of the</option>
+								<option value="CK">Cook Islands</option>
+								<option value="CR">Costa Rica</option>
+								<option value="CI">Côte d'Ivoire</option>
+								<option value="HR">Croatia</option>
+								<option value="CU">Cuba</option>
+								<option value="CW">Curaçao</option>
+								<option value="CY">Cyprus</option>
+								<option value="CZ">Czech Republic</option>
+								<option value="DK">Denmark</option>
+								<option value="DJ">Djibouti</option>
+								<option value="DM">Dominica</option>
+								<option value="DO">Dominican Republic</option>
+								<option value="EC">Ecuador</option>
+								<option value="EG">Egypt</option>
+								<option value="SV">El Salvador</option>
+								<option value="GQ">Equatorial Guinea</option>
+								<option value="ER">Eritrea</option>
+								<option value="EE">Estonia</option>
+								<option value="ET">Ethiopia</option>
+								<option value="FK">Falkland Islands (Malvinas)</option>
+								<option value="FO">Faroe Islands</option>
+								<option value="FJ">Fiji</option>
+								<option value="FI">Finland</option>
+								<option value="FR">France</option>
+								<option value="GF">French Guiana</option>
+								<option value="PF">French Polynesia</option>
+								<option value="TF">French Southern Territories</option>
+								<option value="GA">Gabon</option>
+								<option value="GM">Gambia</option>
+								<option value="GE">Georgia</option>
+								<option value="DE">Germany</option>
+								<option value="GH">Ghana</option>
+								<option value="GI">Gibraltar</option>
+								<option value="GR">Greece</option>
+								<option value="GL">Greenland</option>
+								<option value="GD">Grenada</option>
+								<option value="GP">Guadeloupe</option>
+								<option value="GU">Guam</option>
+								<option value="GT">Guatemala</option>
+								<option value="GG">Guernsey</option>
+								<option value="GN">Guinea</option>
+								<option value="GW">Guinea-Bissau</option>
+								<option value="GY">Guyana</option>
+								<option value="HT">Haiti</option>
+								<option value="HM">Heard Island and McDonald Islands</option>
+								<option value="VA">Holy See (Vatican City State)</option>
+								<option value="HN">Honduras</option>
+								<option value="HK">Hong Kong</option>
+								<option value="HU">Hungary</option>
+								<option value="IS">Iceland</option>
+								<option value="IN">India</option>
+								<option value="ID">Indonesia</option>
+								<option value="IR">Iran, Islamic Republic of</option>
+								<option value="IQ">Iraq</option>
+								<option value="IE">Ireland</option>
+								<option value="IM">Isle of Man</option>
+								<option value="IL">Israel</option>
+								<option value="IT">Italy</option>
+								<option value="JM">Jamaica</option>
+								<option value="JP">Japan</option>
+								<option value="JE">Jersey</option>
+								<option value="JO">Jordan</option>
+								<option value="KZ">Kazakhstan</option>
+								<option value="KE">Kenya</option>
+								<option value="KI">Kiribati</option>
+								<option value="KP">Korea, Democratic People's Republic of</option>
+								<option value="KR">Korea, Republic of</option>
+								<option value="KW">Kuwait</option>
+								<option value="KG">Kyrgyzstan</option>
+								<option value="LA">Lao People's Democratic Republic</option>
+								<option value="LV">Latvia</option>
+								<option value="LB">Lebanon</option>
+								<option value="LS">Lesotho</option>
+								<option value="LR">Liberia</option>
+								<option value="LY">Libya</option>
+								<option value="LI">Liechtenstein</option>
+								<option value="LT">Lithuania</option>
+								<option value="LU">Luxembourg</option>
+								<option value="MO">Macao</option>
+								<option value="MK">Macedonia, the former Yugoslav Republic of</option>
+								<option value="MG">Madagascar</option>
+								<option value="MW">Malawi</option>
+								<option value="MY">Malaysia</option>
+								<option value="MV">Maldives</option>
+								<option value="ML">Mali</option>
+								<option value="MT">Malta</option>
+								<option value="MH">Marshall Islands</option>
+								<option value="MQ">Martinique</option>
+								<option value="MR">Mauritania</option>
+								<option value="MU">Mauritius</option>
+								<option value="YT">Mayotte</option>
+								<option value="MX">Mexico</option>
+								<option value="FM">Micronesia, Federated States of</option>
+								<option value="MD">Moldova, Republic of</option>
+								<option value="MC">Monaco</option>
+								<option value="MN">Mongolia</option>
+								<option value="ME">Montenegro</option>
+								<option value="MS">Montserrat</option>
+								<option value="MA">Morocco</option>
+								<option value="MZ">Mozambique</option>
+								<option value="MM">Myanmar</option>
+								<option value="NA">Namibia</option>
+								<option value="NR">Nauru</option>
+								<option value="NP">Nepal</option>
+								<option value="NL">Netherlands</option>
+								<option value="NC">New Caledonia</option>
+								<option value="NZ">New Zealand</option>
+								<option value="NI">Nicaragua</option>
+								<option value="NE">Niger</option>
+								<option value="NG">Nigeria</option>
+								<option value="NU">Niue</option>
+								<option value="NF">Norfolk Island</option>
+								<option value="MP">Northern Mariana Islands</option>
+								<option value="NO">Norway</option>
+								<option value="OM">Oman</option>
+								<option value="PK">Pakistan</option>
+								<option value="PW">Palau</option>
+								<option value="PS">Palestinian Territory, Occupied</option>
+								<option value="PA">Panama</option>
+								<option value="PG">Papua New Guinea</option>
+								<option value="PY">Paraguay</option>
+								<option value="PE">Peru</option>
+								<option value="PH">Philippines</option>
+								<option value="PN">Pitcairn</option>
+								<option value="PL">Poland</option>
+								<option value="PT">Portugal</option>
+								<option value="PR">Puerto Rico</option>
+								<option value="QA">Qatar</option>
+								<option value="RE">Réunion</option>
+								<option value="RO">Romania</option>
+								<option value="RU">Russian Federation</option>
+								<option value="RW">Rwanda</option>
+								<option value="BL">Saint Barthélemy</option>
+								<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+								<option value="KN">Saint Kitts and Nevis</option>
+								<option value="LC">Saint Lucia</option>
+								<option value="MF">Saint Martin (French part)</option>
+								<option value="PM">Saint Pierre and Miquelon</option>
+								<option value="VC">Saint Vincent and the Grenadines</option>
+								<option value="WS">Samoa</option>
+								<option value="SM">San Marino</option>
+								<option value="ST">Sao Tome and Principe</option>
+								<option value="SA">Saudi Arabia</option>
+								<option value="SN">Senegal</option>
+								<option value="RS">Serbia</option>
+								<option value="SC">Seychelles</option>
+								<option value="SL">Sierra Leone</option>
+								<option value="SG">Singapore</option>
+								<option value="SX">Sint Maarten (Dutch part)</option>
+								<option value="SK">Slovakia</option>
+								<option value="SI">Slovenia</option>
+								<option value="SB">Solomon Islands</option>
+								<option value="SO">Somalia</option>
+								<option value="ZA">South Africa</option>
+								<option value="GS">South Georgia and the South Sandwich Islands</option>
+								<option value="SS">South Sudan</option>
+								<option value="ES">Spain</option>
+								<option value="LK">Sri Lanka</option>
+								<option value="SD">Sudan</option>
+								<option value="SR">Suriname</option>
+								<option value="SJ">Svalbard and Jan Mayen</option>
+								<option value="SZ">Swaziland</option>
+								<option value="SE">Sweden</option>
+								<option value="CH">Switzerland</option>
+								<option value="SY">Syrian Arab Republic</option>
+								<option value="TW">Taiwan, Province of China</option>
+								<option value="TJ">Tajikistan</option>
+								<option value="TZ">Tanzania, United Republic of</option>
+								<option value="TH">Thailand</option>
+								<option value="TL">Timor-Leste</option>
+								<option value="TG">Togo</option>
+								<option value="TK">Tokelau</option>
+								<option value="TO">Tonga</option>
+								<option value="TT">Trinidad and Tobago</option>
+								<option value="TN">Tunisia</option>
+								<option value="TR">Turkey</option>
+								<option value="TM">Turkmenistan</option>
+								<option value="TC">Turks and Caicos Islands</option>
+								<option value="TV">Tuvalu</option>
+								<option value="UG">Uganda</option>
+								<option value="UA">Ukraine</option>
+								<option value="AE">United Arab Emirates</option>
+								<option value="GB">United Kingdom</option>
+								<option value="US">United States</option>
+								<option value="UM">United States Minor Outlying Islands</option>
+								<option value="UY">Uruguay</option>
+								<option value="UZ">Uzbekistan</option>
+								<option value="VU">Vanuatu</option>
+								<option value="VE">Venezuela, Bolivarian Republic of</option>
+								<option value="VN">Viet Nam</option>
+								<option value="VG">Virgin Islands, British</option>
+								<option value="VI">Virgin Islands, U.S.</option>
+								<option value="WF">Wallis and Futuna</option>
+								<option value="EH">Western Sahara</option>
+								<option value="YE">Yemen</option>
+								<option value="ZM">Zambia</option>
+								<option value="ZW">Zimbabwe</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="prodno">If Android, please insert your production number below:</label>
+						<input type="number" name="prodno" id="prodno" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="military" class="radioHeader">MILITARY EXPERIENCE:</label>
+						<label class="radio-inline"><input type="radio" name="military" value="yes">YES</label>
+						<label class="radio-inline"><input type="radio" name="military" value="no">NO</label>
+					</div>
+					<div class="militaryOnly">
+						<div class="form-group">
+							<label for="division">DIVISION:</label>
+							<select name="division" id="division" class="form-control">
+								<option value="" selected disabled hidden>-- select one --</option>
+								<option value="airForce">AIR FORCE</option>
+								<option value="commandos">COMMANDOS</option>
+								<option value="earthMilitia">EARTH MILITIA</option>
+								<option value="criminalPolice">CRIMINAL POLICE</option>
+								<option value="publicSecurity">PUBLIC SECURITY</option>
+								<option value="customServices">CUSTOM SERVICES</option>
+								<option value="intersolarFleet">INTERSOLAR FLEET</option>
+								<option value="outerSpaceChivalry">OUTER SPACE CHIVALRY</option>
+								<option value="foreignersAndFrontiersServices">FOREIGNERS AND FRONTIERS SERVICES
+								</option>
+							</select>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="voluntaryService">VOLUNTARY SERVICE:</label>
+								<input type="number" name="voluntaryService" id="voluntaryService" class="form-control"
+									min="0" max="2" placeholder="Insert the amount of years in voluntary service...">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="contract">CONTRACT:</label>
+								<input type="number" name="contract" id="contract" class="form-control" min="0"
+									placeholder="Insert the amount of years in a contract here...">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="registeredPenalties" class="radioHeader">REGISTERED PENALTIES:</label>
+							<label class="radio-inline"><input type="radio" name="registeredPenalties"
+									id="registeredPenalties" value="yes">YES</label>
+							<label class="radio-inline"><input type="radio" name="registeredPenalties"
+									id="registeredPenalties" value="no">NO</label>
+						</div>
+					</div>
+					<div id="submit-1" class="text-center">
+						<input type="submit" class="submit" value="SUBMIT">
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<h3 class="group-name">PLACE OF RESIDENCE</h3>
+					<div class="form-group">
+						<label for="address">ADDRESS:</label>
+						<input type="text" name="address" id="address" class="form-control"
+							placeholder="Insert your address here...">
+					</div>
+					<div class="form-group">
+						<label for="postalCode">POSTAL CODE:</label>
+						<input type="text" name="postalCode" id="postalCode" class="form-control">
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="sector">SECTOR:</label>
+							<input type="text" name="sector" id="sector" class="form-control"
+								placeholder="Insert your sector here...">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="district">DISTRICT:</label>
+							<input type="text" name="district" id="district" class="form-control"
+								placeholder="Insert your district here...">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="coutry_planet">COUNTRY/PLANET:</label>
+							<input type="text" name="coutry_planet" id="coutry_planet" class="form-control"
+								placeholder="Insert your country or planet here...">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="phone">CELLPHONE:</label>
+							<input type="number" name="phone" id="phone" class="form-control"
+								placeholder="Insert your cellphone number here...">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="intercom">INTERCOM:</label>
+							<input type="number" name="intercom" id="intercom" class="form-control"
+								placeholder="Insert your intercome number here...">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="spaceMail">INTER-SPACE EMAIL:</label>
+							<input type="email" name="spaceMail" id="spaceMail" class="form-control"
+								placeholder="Insert your inter-space email here..." required>
+						</div>
+					</div>
+					<h3 class="group-name h3-splash">ADDITIONAL INFO</h3>
+					<div class="form-group">
+						<label for="job">CURRENT JOB:</label>
+						<input type="text" name="job" id="job" class="form-control"
+							placeholder="Insert your current job here...">
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="degree">ACADEMIC DEGREE:</label>
+							<select name="degree" id="degree" class="form-control">
+								<option value="" selected disabled hidden>-- select one --</option>
+								<option value="associateDegree">ASSOCIATE DEGREE</option>
+								<option value="bachelorsDegree">BACHELOR'S DEGREE</option>
+								<option value="firstProfessionalDegree">FIRST PROFESSIONAL DEGREE</option>
+								<option value="mastersDegree">MASTER'S DEGREE</option>
+								<option value="intermediateGraduateQualification">INTERMEDIATE GRADUATE QUALIFICATION
+								</option>
+								<option value="researchDoctorate">RESEARCH DOCTORATE</option>
+							</select>
+						</div>
+						<div class="form-group col-md-6">
+							<label for="course">COURSE:</label>
+							<input type="text" name="course" id="course" class="form-control"
+								placeholder="Insert your course here...">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="testingGounds">TESTING GROUNDS:</label>
+						<select name="testingGounds" id="testingGounds" class="form-control">
+							<option value="" selected disabled hidden>-- select one --</option>
+							<option value="tokyo">Tokyo</option>
+							<option value="london">London</option>
+							<option value="thedus">Thedus</option>
+							<option value="sanFrancisco">San Francisco</option>
+							<option value="seaOfTranquillity">Sea of Tranquillity</option>
+						</select>
+					</div>
+					<div id="submit-2" class="text-center">
+
+					</div>
+				</div>
+		</form>
+	</div>
+	<a class="" href="#top">
+		<div class="splash splash2 text-center">
+			BACK TO TOP
+		</div>
+	</a>
+	<div class="container">
+		<footer class="footer">
+			<small>&copy; Copyright 2020, Weyland-Yutani Corporation</small>
+		</footer>
+	</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+.background {
+	background-image: url(../images/background/about.jpg);
+	background-color: black;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.aboutbody{
+	position: relative;
+	background-color: rgb(0, 0, 0, 0.6);
+	box-shadow: 0px 0px 5px rgb(102, 255, 255);
+	border-radius: 10px;
+	margin-top: 2rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	font-size: 1.5rem;
+	padding: 1rem;
+}
+
+.table-container{
+	margin-top: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.img2 {
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+}
+
+/* zoom in imgs*/
+
+.zoom:hover {
+	z-index: 9999;
+	padding: none;
+	box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.9);
+	transform: scale(1.1);
+	/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* zoom in imgs*/
+
+
+/* TABLE PROPERTIES */
+/* TABLE PROPERTIES */
+.table table{
+	background-color: rgba(26, 86, 155, 0.2);
+	/* position: relative; */
+	width: inherit;
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+	/* margin-left: 2.8%;
+	margin-bottom: 4%; */
+}
+
+td {
+	font-size: 22px;
+}
+
+.tableleft {
+	float: left;
+}
+
+.tableright {
+	float: right;
+	margin-right: 3%;
+}
+
+.trfontsize {
+	font-size: 20px;
+}
+
+.footer {
+	position: relative;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	margin-left: 1%;
+	font-size: 20px;
+}

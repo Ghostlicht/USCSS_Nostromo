@@ -1,0 +1,166 @@
+ .background
+{
+    background-image: url(../images/background/history.jpg);
+    background-color: black;
+    background-position: absolute;
+    background-repeat: no-repeat;
+	color: white;
+}
+
+/* 2nd LOGO SIZE */ /* 2nd LOGO SIZE */
+.logo2 {
+    width: 40%;
+    padding: 1%;
+    margin: auto;
+    margin-top: 4%;
+    margin-left: 30%;
+}
+/* 2nd LOGO SIZE */ /* 2nd LOGO SIZE */
+
+
+
+
+.storybody
+{
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 20px;
+    width: 80%;
+    hyphens: none;
+    padding: 15px;
+    margin-left: 10%;
+    font-size: 2rem;
+    text-align: center;
+    box-shadow: 0px 0px 2px rgb(102, 255, 255);
+    border-radius: 10px;
+}
+
+/* INTERNAL LINKS AT BOTTOM OF PAGE */ /* INTERNAL LINKS AT BOTTOM OF PAGE */
+  
+.youtube
+{
+    position: relative;
+    justify-content: center;
+    border: 5px black;
+}
+
+
+.internalinks {
+    position: relative;
+    width: 20%;
+    padding: 0px 100px 0px 100px;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 14%;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgb(102, 255, 255);
+    border-radius: 10px;
+}
+
+                        .internalinks:hover
+                        {
+                            background-color: rgb(102, 255, 255);
+                            box-shadow: 1px 1px 15px rgb(102, 255, 255);
+                        }
+
+/* INTERNAL LINKS AT BOTTOM OF PAGE */ /* INTERNAL LINKS AT BOTTOM OF PAGE */
+
+
+/* VIDEO */ /* VIDEO */
+.video
+{
+    position: relative;
+}
+
+#video{
+  width: 900px;
+  height: 500px;
+}
+
+.controls {
+    width:50%;
+    position:relative;
+ }
+
+ /* VIDEO */ /* VIDEO */
+
+
+/* BACK TO TOP */ /* BACK TO TOP *//* BACK TO TOP */ /* BACK TO TOP */
+.backtotop
+{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 5%;
+    width: 100%;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgb(102, 255, 255);
+    border-radius: 10px;
+}
+
+.backtotop:hover
+{
+    background-color: rgb(102, 255, 255);
+    box-shadow: 1px 1px 15px rgb(102, 255, 255);
+
+}
+
+/* BACK TO TOP */ /* BACK TO TOP *//* BACK TO TOP */ /* BACK TO TOP */
+
+.footer {
+	position: relative;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	margin-left: 1%;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 919px) {
+	.logo2 {
+		width: 80%;
+		margin-left: 10%;
+    }
+	
+    .internalinks {
+		padding: none;
+		width: auto;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 870px) {
+    .internalinks {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 757px) {
+	.logo2 {
+		width: 80%;
+		margin-left: 10%;
+    }
+    
+    .logo3 {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.internalinks {
+		padding: none;
+		width: auto;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.logo2 {
+		width: 80%;
+	}
+
+}

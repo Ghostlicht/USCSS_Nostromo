@@ -1,0 +1,123 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+.background
+{
+	background-image: url(../images/background/form.jpg);
+	background-color: black;
+	background-position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.h3-splash
+{
+	background-color: rgb(0, 0, 0, 0.5);
+	width: fit-content;
+}
+
+.recruitment
+{
+	text-shadow: 0px 0px 5px white;
+	font-size: 4rem;
+	margin-top: 10%;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	/* margin-bottom: 2ch; */
+}
+
+form
+{
+	/* border-color: ; */
+	box-shadow: 0px 0px 5px rgb(102, 255, 255, 0.2);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.form-group label
+{
+	color: rgb(102, 255, 255);
+	font-size: 2rem;
+}
+
+.radioHeader
+{
+	width: 100%;
+}
+
+label input[type="radio"]
+{
+	margin-left: 1rem;
+	vertical-align: 10%;
+}
+
+.group-name
+{
+	color: #a0a0a0;
+}
+
+.militaryOnly
+{
+	display: none;
+}
+
+.submit
+{
+	background-color: rgb(0, 153, 153);
+	border-color: rgb(0, 0 , 0, 0.2);
+	color: white;
+	box-shadow: 1px 1px 15px rgb(102, 255, 255);
+	border-radius: 10px;
+	font-size: 2rem;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 2ch;
+}
+
+.submit:hover
+{
+	background-color: rgb(102, 255, 255);
+	border-color: rgb(102, 255, 255);
+}
+
+.backToTopContainer
+{
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+
+.backToTop:hover
+{
+	color: white;
+	text-decoration: none;
+	background-color: rgb(102, 255, 255);
+}
+
+.footer {
+	position: relative;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	margin-left: 1%;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+	.backtotop {
+		margin-top: 1%;
+	}
+}
